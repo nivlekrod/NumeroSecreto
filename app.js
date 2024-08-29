@@ -78,7 +78,7 @@ function verificarChute() { //adicionar numeroDeTentivas
     );
     // Quero trocar passar para outra página/imagem posteriormente
     // alert(`Parabéns! Você acertou o número secreto, é ${numeroSecreto} com ${tentativas} ${palavraTentativa}`)
-    document.getElementById("reiniciar").removeAttribute("disable");
+    document.getElementById("reiniciar").removeAttribute("disabled");
   } else {
     if (numeroChute > numeroSecreto) {
       exibirTexto("p", `O número secreto é menor que o ${numeroChute}`);
